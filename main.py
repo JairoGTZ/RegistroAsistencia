@@ -1,6 +1,7 @@
 import streamlit as st
 import actions as act
 import registro as reg
+import fpdf as fp
 
 # Centrar el header con Markdown y agregar emojis
 st.markdown("<h1 style='text-align: center;'>Registro de Asistencia de 3 grado FIME 📒✏️🤖</h1>", unsafe_allow_html=True)
